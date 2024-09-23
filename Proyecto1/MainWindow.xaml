@@ -1,0 +1,18 @@
+﻿<Window x:Class="Proyecto1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid Background="#FF5C5C5C">
+            <TextBox x:Name="txbInicial" HorizontalAlignment="Center" Margin="0,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="368" Height="33"/>
+            <Button x:Name="btnCambiar" Content="---&gt;" HorizontalAlignment="Center" Margin="0,168,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.118,-0.478" Height="27" Width="32" Click="Button_Click" Background="#FF00A3FF" Foreground="White"/>
+            <Button x:Name="btnReset" Content="Reset" HorizontalAlignment="Center" Margin="0,295,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.118,-0.478" Height="33" Width="48" Click="Button_Reset" Background="#FF0D9D20" Foreground="White"/>
+            <Label x:Name="labelFinal" HorizontalAlignment="Center" VerticalAlignment="Top" Width="368" Height="36" Background="White" BorderThickness="1,0,0,0" ClipToBounds="True" Margin="0,235,0,0"/>
+            <Label Content="TRANSPORTADOR DE TEXTOS" HorizontalAlignment="Center" Margin="0,26,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold"/>
+        </Grid>
+    </Grid>
+</Window>
